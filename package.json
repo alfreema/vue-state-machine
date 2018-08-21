@@ -1,0 +1,14 @@
+{
+  "name": "vue-state-machine",
+  "version": "0.1.0",
+  "description": "A vue state machine plugin based on vuex and xstate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aaron Freeman",
+  "license": "MIT",
+  "dependencies": {
+    "xstate": "^3.3.3"
+  }
+}
