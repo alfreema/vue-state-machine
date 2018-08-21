@@ -1,21 +1,31 @@
 {
   "name": "vue-state-machine",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This plugin is intended to be an easy to use state machine for vue based on vuex and David Khourshid's xstate package.  It allows you to have one state machine per vuex module.",
-  "keywords": "vue state machine xstate vuex",
+  "keywords": [
+    "vue",
+    "state machine",
+    "finite state machine",
+    "xstate",
+    "vuex"
+  ],
   "homepage": "https://github.com/alfreema/vue-state-machine",
   "bugs": "https://github.com/owner/project/issues",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/alfreema/vue-state-machines"
+    "type": "git",
+    "url": "https://github.com/alfreema/vue-state-machines"
   },
-  "main": "index.js",
+  "main": "dist/vue-state-machine.es.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c rollup.config.js",
+    "minify": "uglifyjs dist/vue-state-machine.umd.js --output dist/vue-state-machine.min.js --compress --mangle"
   },
   "author": "Aaron Freeman",
   "license": "MIT",
-  "dependencies": {
-    "xstate": "^3.3.3"
+  "devDependencies": {
+    "rollup": "^0.64.1",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "uglify-es": "^3.3.9"
   }
 }
