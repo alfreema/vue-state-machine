@@ -1,7 +1,14 @@
 {
   "name": "vue-state-machine",
   "version": "0.1.0",
-  "description": "A vue state machine plugin based on vuex and xstate",
+  "description": "This plugin is intended to be an easy to use state machine for vue based on vuex and David Khourshid's xstate package.  It allows you to have one state machine per vuex module.",
+  "keywords": "vue state machine xstate vuex",
+  "homepage": "https://github.com/alfreema/vue-state-machine",
+  "bugs": "https://github.com/owner/project/issues",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/alfreema/vue-state-machines"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
