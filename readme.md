@@ -1,6 +1,6 @@
 # Vue State Machine
 
-This plugin is intended to be an easy to use state machine for vue 
+This plugin is intended to be an easy to use state machine for vue, 
 based on vuex and David Khourshid's xstate package.  It allows 
 you to have one state machine per vuex module.  
 
