@@ -31,5 +31,7 @@
     "rollup-plugin-commonjs": "^8.2.6",
     "uglify-es": "^3.3.9"
   },
-  "dependencies": {}
+  "dependencies": {
+    "xstate": "^3.3.3"
+  }
 }

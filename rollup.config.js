@@ -14,7 +14,7 @@ export default {
     output: [
         { file: 'dist/vue-state-machine.es.js', format: 'es' },
         { file: 'dist/vue-state-machine.cjs.js', format: 'cjs' },
-        { file: 'dist/vue-state-machine.umd.js', format: 'umd', name: 'vueStateMachine' }
+        { file: 'dist/vue-state-machine.umd.js', format: 'umd', name: 'vsm' }
     ],
     external: [ 'xstate' ]
 };

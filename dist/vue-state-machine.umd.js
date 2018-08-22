@@ -1,7 +1,7 @@
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('xstate')) :
   typeof define === 'function' && define.amd ? define(['xstate'], factory) :
-  (global.vueStateMachine = factory(global.xstate));
+  (global.vsm = factory(global.xstate));
 }(this, (function (xstate) { 'use strict';
 
   /* vsm-store defines a vuex module to store the current state for a state machine.
@@ -159,6 +159,7 @@
 
     // add a state machine to the store
     var addMachine = function addMachine(storeName, machine) {
+      console.log('vsm-plugin:addMachine():storeName=' + storeName);
       return store.dispatch({
         type: moduleName + '/addMachine',
         machineName: storeName,

@@ -85,6 +85,7 @@ vsmPlugin.install = function install(Vue, store, options) {
 
   // add a state machine to the store
   let addMachine = function addMachine(storeName, machine) {
+    console.log('vsm-plugin:addMachine():storeName=' + storeName)
     return store.dispatch({
       type: `${moduleName}/addMachine`,
       machineName: storeName,
