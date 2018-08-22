@@ -1,6 +1,6 @@
 {
   "name": "vue-state-machine",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "This plugin is intended to be an easy to use state machine for vue based on vuex and David Khourshid's xstate package.  It allows you to have one state machine per vuex module.",
   "keywords": [
     "vue",
@@ -24,8 +24,12 @@
   "author": "Aaron Freeman",
   "license": "MIT",
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015-rollup": "^3.0.0",
     "rollup": "^0.64.1",
+    "rollup-plugin-babel": "^3.0.7",
     "rollup-plugin-commonjs": "^8.2.6",
     "uglify-es": "^3.3.9"
-  }
+  },
+  "dependencies": {}
 }
