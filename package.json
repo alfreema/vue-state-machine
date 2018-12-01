@@ -13,7 +13,7 @@
   "bugs": "https://github.com/owner/project/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alfreema/vue-state-machines"
+    "url": "https://github.com/alfreema/vue-state-machine"
   },
   "main": "dist/vue-state-machine.es.js",
   "scripts": {
