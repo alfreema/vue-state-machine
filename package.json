@@ -13,7 +13,7 @@
   "bugs": "https://github.com/owner/project/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alfreema/vue-state-machines"
+    "url": "https://github.com/alfreema/vue-state-machine"
   },
   "main": "dist/vue-state-machine.es.js",
   "scripts": {
@@ -29,9 +29,11 @@
     "rollup": "^0.64.1",
     "rollup-plugin-babel": "^3.0.7",
     "rollup-plugin-commonjs": "^8.2.6",
-    "uglify-es": "^3.3.9"
+    "uglify-es": "^3.3.9",
+    "lodash": ">=4.17.11"
   },
   "dependencies": {
-    "xstate": "^3.3.3"
+    "xstate": "^3.3.3",
+    "lodash": ">=4.17.11"
   }
 }
